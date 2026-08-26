@@ -41,8 +41,10 @@ int drawingMemory[ledsPerPin*6];
 //
 // AND YES I REALIZE WE HAVE WS2812B BUT THE VALUES ARE THE SAME FOR WS_2811 IN THIS CODE
 
+const int config = WS2811_BRG | WS2811_800kHz;
+
 // =====================================================================
-const int config = WS2811_GRB | WS2811_800kHz;
+
 
 
 // ---------------------------------------------------------------
