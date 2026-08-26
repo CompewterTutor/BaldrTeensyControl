@@ -1,3 +1,6 @@
 [submodule "PixelController"]
 	path = PixelController
 	url = git@github.com:CompewterTutor/PixelController.git
+[submodule "FastLED"]
+	path = FastLED
+	url = git@github.com:CompewterTutor/FastLED.git
