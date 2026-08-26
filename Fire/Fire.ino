@@ -12,6 +12,18 @@
 const unsigned int width = 120;
 const unsigned int height = 16;
 
+// Extra Pin Setup
+// The Octo board breaks out these pins:
+// 0 RX1/CRX2/PWM 
+// 1 TX1/CTX2/PWM
+// 22 CTX1/PWM/Analog/A9
+// 23 CRX1/PWM/Analog/A8
+// 19 SCL0(I2C)/AnalogA5/PWM
+// 18 SDA0(I2C)/AnalogA4/PWM
+// 17 SDA1(I2C)/AnalogA3/PWM/RX4
+
+
+
 // These parameters control the fire appearance
 // (try controlling these with knobs / analogRead....)
 unsigned int heat = width / 5;
