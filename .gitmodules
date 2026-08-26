@@ -4,3 +4,6 @@
 [submodule "FastLED"]
 	path = FastLED
 	url = git@github.com:CompewterTutor/FastLED.git
+[submodule "teensy_loader_cli"]
+	path = teensy_loader_cli
+	url = git@github.com:CompewterTutor/teensy_loader_cli.git

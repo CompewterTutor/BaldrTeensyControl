@@ -5,6 +5,13 @@
 //  http://caraesnaur.github.io/fire/
 //
 // This example code is in the public domain.
+//
+//--------------------------------------------------------------------------------------
+//  Memory Usage on Teensy 4.0:
+//  FLASH: code:12324, data:3016, headers:8208   free for files:2008068
+//   RAM1: variables:11808, code:10600, padding:22168   free for local variables:479712
+//   RAM2: variables:28448  free for malloc/new:495840
+//--------------------------------------------------------------------------------------
 
 #include <OctoWS2811.h>
 
